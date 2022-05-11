@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+//go:build mage
 // +build mage
 
 package main
@@ -36,6 +37,7 @@ var (
 		"0.11.6",
 		"1.0.3",
 		"1.1.1",
+		"1.9.3",
 	}
 	vaultExperimentalImageVersions = []string{"latest"}
 )
